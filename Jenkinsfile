@@ -5,7 +5,7 @@ pipeline
     agent node
     stages
     {
-        stage 'abc'
+        stage('abc')
         {
             steps
             {
