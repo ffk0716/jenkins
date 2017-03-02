@@ -12,7 +12,7 @@ pipeline
                 sh 'ls'
             }
         }
-        stage('dei')
+        stage('dejj')
         {
             steps
             {
