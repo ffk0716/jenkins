@@ -17,7 +17,7 @@ pipeline
             steps
             {
         parallel firstBranch: {
-                sh 'ls'
+                sh 'echo env.BRANCH_NAME'
     }, secondBranch: {
                 sh 'ls'
     }
