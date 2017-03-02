@@ -16,7 +16,7 @@ pipeline
         {
             steps
             {
-                sh 'pwd'
+                build 'brew'
             }
         }
         stage('jeowfejo')
