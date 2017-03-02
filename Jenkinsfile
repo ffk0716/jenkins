@@ -16,7 +16,11 @@ pipeline
         {
             steps
             {
-                build 'brew'
+        parallel firstBranch: {
+                sh 'ls'
+    }, secondBranch: {
+                sh 'ls'
+    },
             }
         }
         stage('jeowfejo')
