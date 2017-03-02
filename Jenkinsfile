@@ -12,7 +12,7 @@ pipeline
                 sh 'ls'
             }
         }
-        stage('deii')
+        stage('dei')
         {
             steps
             {
