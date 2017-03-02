@@ -19,5 +19,12 @@ pipeline
                 sh 'pwd'
             }
         }
+        stage('jijeowfejo')
+        {
+            steps
+            {
+                sh 'pwd'
+            }
+        }
     }
 }
